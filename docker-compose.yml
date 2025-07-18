@@ -17,7 +17,7 @@ services:
   meal_planner:
     build: ./meal_planner
     ports:
-      - "8000:8000"
+      - "7778:7778"
     environment:
       - INVENTORY_SERVICE_URL=http://inventory_export:5005
     volumes:
