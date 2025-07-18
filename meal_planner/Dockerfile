@@ -18,5 +18,5 @@ COPY . .
 RUN mkdir -p /app/data/data_set
 
 # Expose port and run application
-EXPOSE 8000
+EXPOSE 7778
 CMD ["python", "meal_planner.py"]
